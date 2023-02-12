@@ -37,6 +37,7 @@ DELETE localhost:5000/buku/1
 #### Endpoint MongoDB
 ```bash
 GET localhost:5000/Contents
+GET localhost:5000/Contents/63e5c89fa98d8f48c4c38632
 POST localhost:5000/Contents
 PATCH localhost:5000/Contents/1
 DELETE localhost:5000/Contents/1
