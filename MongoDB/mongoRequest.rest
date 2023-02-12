@@ -1,0 +1,27 @@
+###
+POST  http://localhost:5000/Contents
+Content-Type: application/json
+
+{
+    "judul": "React JS",
+    "author": "Admin React",
+    "content": "library JavaScript untuk membangun antarmuka pengguna. React memfokuskan pada membangun aplikasi yang sangat interaktif dan responsif dengan cara membuat komponen UI yang dapat digunakan kembali dan dipantau perubahannya. React juga memiliki fitur yang sangat berguna untuk membantu developer membangun aplikasi dengan performa tinggi dan mudah dipelihara. Hal ini membuat React menjadi pilihan yang populer bagi developer untuk membangun aplikasi web dan aplikasi mobile.",
+    "year":"2023"
+}
+
+###
+PATCH   http://localhost:5000/Contents/63e5ca23824fb5ee18aa8517
+Content-Type: application/json
+
+{
+    "judul": "React JS",
+    "author": "Admin React",
+    "content": "library JavaScript untuk membangun antarmuka pengguna. React memfokuskan pada membangun aplikasi yang sangat interaktif dan responsif dengan cara membuat komponen UI yang dapat digunakan kembali dan dipantau perubahannya. React juga memiliki fitur yang sangat berguna untuk membantu developer membangun aplikasi dengan performa tinggi dan mudah dipelihara. Hal ini membuat React menjadi pilihan yang populer bagi developer untuk membangun aplikasi web dan aplikasi mobile.",
+    "year":"2023"
+}
+
+###
+GET http://localhost:5000/Contents
+
+###
+DELETE http://localhost:5000/Contents/63e5ca23824fb5ee18aa8517

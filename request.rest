@@ -1,0 +1,42 @@
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "azemaru",
+    "email": "azemaru@node.com",
+    "gender": "Laki-Laki"   
+}
+
+
+###
+POST  http://localhost:5000/buku
+Content-Type: application/json
+
+{
+    "judul": "Fullstact",
+    "penulis": "admin fullstact",
+    "tahun": "2023"   
+}
+
+###
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/buku
+
+
+
+//Check Pemanggilan
+###
+GET http://localhost:5000/NoBook
+
+###
+GET http://localhost:5000/users/books/2
+
+
+//Redis Chace
+###
+GET http://localhost:5000/users/checkusers/2
+
+###
+GET http://localhost:5000/users/checkbooks/2
