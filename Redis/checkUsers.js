@@ -1,4 +1,4 @@
-const Buku = require('../Models/BukuModel');
+const Buku = require('../Models/bukuModel');
 const User = require('../Models/userModel')
 const redisCache = require('./redisChache')
 
